@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATABASE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titleContainer">
+        <img src="[compass].jpg" width="70px" height="70px" id="compassPic">
+        <div id="welcomeMsg1" class="welcomeTitles">Compass Internal Database</div>
+    </div>
+    <div class="mainArea">
+        <div class="leftSidebar">
+        <div class="topLeftTitlebar">
+            <div class="topLeftTitle">Accessibility Buttons</div>
+            <button class="closeBtn" id="closeTopLeftSidebarBtn">X</button>
+        </div>
+        <div class="topLeftSidebar">
+            <audio controls>
+                <source src="JUST A DREAM.mp3">
+            </audio>
+            <audio controls>
+                <source src="Clara La San - Want You (Visualiser).mp3">
+            </audio>
+        </div>
+        <div class="bottomLeftTitlebar">
+            <div class="bottomLeftTitle">Bottom Left Title Bar</div>
+            <button class="closeBtn" id="closeBottomLeftSidebarBtn">X</button>
+        </div>
+        <div class="bottomLeftSidebar"></div>
+    </div>
+    <div class="cmd">
+        <div class="cmdTitlebar">
+            <div class="cmdTitle">Command Window</div>
+            <button class="closeBtn" id="closeCmdBtn">X</button>
+        </div>
+        <div contenteditable="false" class="cmdContent"><b>HERE IS A LIST OF BASIC COMMANDS TO GET STARTED:</b><br><br><b>INFO:</b> Shows website information.<br><b>HELP:</b> Shows a guide on how to use this website.</div>
+        <!--This div keeps the input and enter button neaxt to each other-->
+        <div class="cmdInputArea">
+            <input class="cmdInput" placeholder="Type here">
+            <button class="buttons" id="cmdEnterBtn" type="submit">Enter</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

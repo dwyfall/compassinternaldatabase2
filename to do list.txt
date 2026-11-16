@@ -1,0 +1,10 @@
+if(cmdInput.value == "info"){
+        cmdContent.textContent = "This is Compass Internal Database."
+    } else if(cmdInput.value == "help"){
+        cmdContent.textContent = "Enter the website below for help."
+    } else if(cmdInput.value == ""){
+        cmdContent.textContent = "You need to enter a command."
+    }    
+    else{
+        cmdContent.textContent = `"${cmdInput.value}" is not a recognized command or input.`
+    }

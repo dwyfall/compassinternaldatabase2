@@ -1,0 +1,133 @@
+body{
+    min-height: 800px;
+    background-color: rgb(0, 0, 0);
+    flex-wrap: nowrap;
+    user-select: none;
+}
+.mainArea{
+    display: flex;                      
+    padding-top: 20px;
+    gap: 10px;
+    flex-direction: row;
+}
+.titleContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom: rgb(253, 252, 252) solid 1px;
+}
+.cmd{
+    display: flex;
+    width: 60%;
+    height: 800px;
+    border: 1px solid white;
+    justify-self: flex-end;
+    flex-direction: column; 
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+.cmdTitlebar{
+    display: flex;
+}
+.cmdTitle{
+    padding-left: 5px;
+    background-color: white;
+    color: black;
+    width: 95%;
+}
+.closeBtn{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 5%;
+    border: white solid 2px;
+    cursor: pointer;
+}
+.closeBtn:hover{
+    background-color: red;
+}
+.leftSidebar{
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: column;
+    width: 40%;
+    height: 800px;
+    border: 1px solid white;
+}
+.topLeftTitlebar{
+    display: flex;
+}
+.topLeftTitle{
+    padding-left: 5px;
+    background-color: white;
+    color: black;
+    width: 95%;
+}
+.topLeftSidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.bottomLeftSidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+}
+.bottomLeftTitlebar{
+    display: flex;
+}
+.bottomLeftTitle{
+    padding-left: 5px;
+    background-color: white;
+    color: black;
+    width: 95%;
+}
+.topLeftSidebar audio{
+    background-color: black;
+}
+.cmdContent{
+    padding-top: 5px;
+    padding-left: 5px;
+    color: white;
+    flex: 1;
+}
+.cmdInputArea{
+    display: flex;
+}
+.cmdInput{
+    display: flex;
+    justify-self: flex-end;
+    flex-direction: column;
+    background-color: black;
+    outline: none;
+    width: 95%;
+    color: white;
+    border: none;
+    border-top: 1px solid white;
+    box-sizing: border-box;
+}
+#cmdEnterBtn{
+    border: none;
+    border-top: 1px solid white;
+    width: 5%;
+    cursor: pointer;
+}
+#compassPic{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#welcomeMsg1{
+    color: rgb(250, 249, 243);
+    font-size: 50px;
+}
